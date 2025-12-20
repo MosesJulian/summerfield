@@ -30,7 +30,7 @@ const Introduction: FC<IntroductionProps> = ({
 				</p>
 
 				<Link
-					href={`https://wa.me/+6285211662279?text=${bookingMessage}`}
+					href={`https://api.whatsapp.com/send/?phone=%2B6285211662279&text=${bookingMessage}&type=phone_number&app_absent=0`}
 					target="_blank"
 					className="max-w-max"
 				>

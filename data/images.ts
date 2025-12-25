@@ -26,6 +26,13 @@ import Barong2 from '@/public/Attractions/Barong2.jpg';
 import Waduk1 from '@/public/Attractions/Waduk1.jpg';
 import Waduk2 from '@/public/Attractions/Waduk2.jpg';
 
+import About1 from '@/public/About/About1.jpg';
+import About2 from '@/public/About/About2.jpg';
+import About3 from '@/public/About/About3.jpg';
+import About4 from '@/public/About/About4.jpg';
+import About5 from '@/public/About/About5.jpg';
+import About6 from '@/public/About/About6.jpg'
+
 import { StaticImageData } from 'next/image';
 
 export type Rooms = {
@@ -85,4 +92,13 @@ const attractions: Attractions = [
 	},
 ];
 
-export { room1, room2, attractions };
+const about: StaticImageData[] = [
+	About1,
+	About2,
+	About3,
+	About4,
+	About5,
+	About6,
+];
+
+export { room1, room2, attractions, about };

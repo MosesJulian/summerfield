@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { FC } from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import { attractions } from '@/data/data';
+import { attractions } from '@/data/images';
 import Image from 'next/image';
 
 export type AttractionsProps = {

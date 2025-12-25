@@ -1,12 +1,7 @@
 import { FC } from 'react';
-import About1 from '@/public/About/About1.jpg';
-import About2 from '@/public/About/About2.jpg';
-import About3 from '@/public/About/About3.jpg';
-import About4 from '@/public/About/About4.jpg';
-import About5 from '@/public/About/About5.jpg';
-import About6 from '@/public/About/About6.jpg';
 import clsx from 'clsx';
 import Image from 'next/image';
+import { about } from '@/data/images';
 
 export type AboutProps = {
 	className?: string;
@@ -43,13 +38,13 @@ const About: FC<AboutProps> = ({ className }: AboutProps) => {
 
 				<div className="grid grid-cols-3 place-items-center gap-2 md:gap-8">
 					<Image
-						src={About1}
+						src={about[0]}
 						className="col-span-3 md:col-span-1 rounded-3xl w-full aspect-square"
 						alt=""
 						loading="lazy"
 					/>
 					<Image
-						src={About2}
+						src={about[1]}
 						className="col-span-3 md:col-span-2 rounded-3xl h-full"
 						alt=""
 						loading="lazy"
@@ -72,13 +67,13 @@ const About: FC<AboutProps> = ({ className }: AboutProps) => {
 
 				<div className="grid grid-cols-7 place-items-center gap-2 md:gap-8">
 					<Image
-						src={About3}
+						src={about[2]}
 						className="col-span-7 md:col-span-5 rounded-3xl w-full h-full"
 						alt=""
 						loading="lazy"
 					/>
 					<Image
-						src={About4}
+						src={about[3]}
 						className="col-span-7 md:col-span-2 rounded-3xl w-full h-full"
 						alt=""
 						loading="lazy"
@@ -109,13 +104,13 @@ const About: FC<AboutProps> = ({ className }: AboutProps) => {
 
 				<div className="grid grid-cols-2 place-items-center gap-2 md:gap-8">
 					<Image
-						src={About5}
+						src={about[4]}
 						className="col-span-2 md:col-span-1 rounded-3xl h-full aspect-video"
 						alt=""
 						loading="lazy"
 					/>
 					<Image
-						src={About6}
+						src={about[5]}
 						className="col-span-2 md:col-span-1 rounded-3xl w-full aspect-square"
 						alt=""
 						loading="lazy"

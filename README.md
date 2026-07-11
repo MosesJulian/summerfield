@@ -1,6 +1,6 @@
 # Summerfield Company Profile
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Open [https://summerfieldwatungkarung.com](https://summerfieldwatukarung.com) to view the website. (P.S The customer wanted that domain)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Open [https://summerfieldwatungkarung.com](https://summerfieldwatukarung.com) to view the website.
 
 ## Getting Started
 
